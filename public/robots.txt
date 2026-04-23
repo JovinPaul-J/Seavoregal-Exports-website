@@ -1,0 +1,13 @@
+# Robots.txt for Seavoregal Exports
+User-agent: *
+Allow: /
+
+# Crawl delay to be respectful to server
+Crawl-delay: 1
+
+# Disallow admin and private areas (none for this public site)
+# Disallow: /admin
+# Disallow: /private
+
+# Sitemap location
+Sitemap: https://seavoregalexports.com/sitemap.xml
