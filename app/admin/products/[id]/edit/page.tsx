@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ProductForm } from '@/components/admin/product-form'
 import { ChevronLeft } from 'lucide-react'
-import type { Product } from '@/lib/supabase/server'
+import type { Product } from '@/lib/data/products'
 
 export default function EditProductPage() {
   const router = useRouter()

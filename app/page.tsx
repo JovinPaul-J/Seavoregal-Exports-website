@@ -18,9 +18,9 @@ export default function Home() {
       <main className="min-h-screen">
         {/* Hero Section */}
         <Hero
-          title="Premium Seafood Products from Egypt"
+          title="Premium Agricultural Products"
           subtitle="Global Quality, Local Expertise"
-          description="Seavoregal Exports delivers high-quality aquaculture and seafood products with international certifications. Trusted by distributors, retailers, and restaurants worldwide."
+          description="Seavoregal Exports delivers high-quality agricultural products including premium Turmeric and Small Onions with international certifications. Trusted by distributors and retailers worldwide."
           primaryCta={{ text: 'Explore Products', href: '/products' }}
           secondaryCta={{ text: 'About Us', href: '/about' }}
           showWhatsApp
@@ -34,7 +34,7 @@ export default function Home() {
                 Our Featured Products
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Discover our premium selection of seafood products, carefully sourced and processed to the highest standards.
+                Discover our premium selection of agricultural exports, carefully sourced and processed to the highest standards.
               </p>
             </div>
 
@@ -98,11 +98,11 @@ export default function Home() {
               {[
                 {
                   title: 'Quality Assured',
-                  description: 'ISO 22000 and HACCP certified with strict quality control at every stage.',
+                  description: 'SGS Certified with strict quality control at every stage.',
                 },
                 {
                   title: 'Sustainable Practices',
-                  description: 'GlobalGAP and ISO 14001 certified, committed to environmental responsibility.',
+                  description: 'Committed to environmentally responsible farming practices.',
                 },
                 {
                   title: 'Global Experience',
@@ -151,7 +151,7 @@ export default function Home() {
               Ready to Partner with Seavoregal?
             </h2>
             <p className="text-lg mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
-              Get in touch with our team to discuss your seafood product requirements.
+              Get in touch with our team to discuss your agricultural product requirements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild variant="secondary" size="lg">

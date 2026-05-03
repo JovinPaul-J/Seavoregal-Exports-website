@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { ProductsList } from '@/components/admin/products-list'
 import { LogOut } from 'lucide-react'
-import type { Product } from '@/lib/supabase/server'
+import type { Product } from '@/lib/data/products'
 
 export default function AdminDashboard() {
   const [products, setProducts] = useState<Product[]>([])

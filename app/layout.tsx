@@ -7,22 +7,22 @@ const inter = Inter({ subsets: ["latin"], variable: '--font-inter' })
 const poppins = Poppins({ subsets: ["latin"], weight: ['400', '600', '700'], variable: '--font-poppins' })
 
 export const metadata: Metadata = {
-  title: 'Seavoregal Exports - Premium Seafood Products',
-  description: 'High-quality aquaculture and seafood products from Egypt. ISO certified, sustainable practices, global distribution.',
-  keywords: 'seafood exports, aquaculture, shrimp, fish, Egypt exports, organic seafood, sustainable fishing',
+  title: 'Seavoregal Exports - Premium Agricultural Products',
+  description: 'High-quality agricultural products including Turmeric and Small Onions from India. SGS certified, global distribution.',
+  keywords: 'agricultural exports, turmeric, sambar onion, small onion, spices, vegetable exports, India exports',
   creator: 'Seavoregal Exports',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://seavoregalexports.com',
-    title: 'Seavoregal Exports - Premium Seafood Products',
-    description: 'High-quality aquaculture and seafood products from Egypt',
+    title: 'Seavoregal Exports - Premium Agricultural Products',
+    description: 'High-quality agricultural products including Turmeric and Small Onions',
     siteName: 'Seavoregal Exports',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Seavoregal Exports',
-    description: 'Premium seafood products from Egypt',
+    description: 'Premium agricultural products from India',
   },
 }
 
